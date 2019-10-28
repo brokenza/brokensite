@@ -12,13 +12,6 @@ function connect()
 
    );
 
-    //SEVER
-    //NewPass18-10-2017
-    //$obj->host = 'localhost';
-    //$obj->username = 'brokensi_root';
-    //$obj->password = 'Rowzx-@Q1778a';
-    //$obj->dab = 'brokensi_demo';
-    //$obj->dbConnect();
 
     ///Local
        //    "host"=>"localhost",  // กำหนด host
