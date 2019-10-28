@@ -12,18 +12,6 @@ function connect()
 
    );
 
-
-    ///Local
-       //    "host"=>"localhost",  // กำหนด host
-       //"user"=>"root", // กำหนดชื่อ user
-       //"pass"=>"11111111",   // กำหนดรหัสผ่าน
-       //"dbname"=>"brokensi_demo",  // กำหนดชื่อฐานข้อมูล
-       //"charset"=>"utf8"  // กำหนด charset
-
-
-
-
-
     // สิ้นสุุดส่วนกำหนดการเชิ่อมต่อฐานข้อมูล //
 	$mysqli = @new mysqli($db_config["host"], $db_config["user"], $db_config["pass"], $db_config["dbname"]);
 	if(mysqli_connect_error()) {
